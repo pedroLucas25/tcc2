@@ -1,0 +1,23 @@
+%
+% Função para converter número decimal em binário com sinal
+%
+
+function nbin = convete_binario(ndec)
+
+aux_ent = ndec;
+aux_cont = 1;
+
+    if(aux_ent == 0)
+        nbin = 0;
+    elseif(aux_ent == 1)
+        nbin = 1;
+    else
+        while (aux_ent~=0 || aux_ent~=1)
+
+            nbin(aux_cont) = mod(aux_ent);
+            aux = aux/2;
+
+        end
+    end
+
+end

@@ -1,0 +1,46 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pedro/Documentos/TCC/top_level/top_level.srcs/sources_1/imports/new/filtro_fir.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity filtro_fir
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pedro/Documentos/TCC/top_level/top_level.srcs/sources_1/new/top_level.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_level
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pedro/Documentos/TCC/top_level/top_level.srcs/sources_1/new/valor_absoluto.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity valor_absoluto
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pedro/Documentos/TCC/top_level/top_level.srcs/sim_1/new/tb_top_level.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_level_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pedro/Documentos/TCC/top_level/top_level.srcs/sources_1/imports/new/filtro_fir.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity filtro_fir
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pedro/Documentos/TCC/top_level/top_level.srcs/sources_1/new/top_level.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_level
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pedro/Documentos/TCC/top_level/top_level.srcs/sources_1/new/top_level.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_level
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pedro/Documentos/TCC/top_level/top_level.srcs/sources_1/new/top_level.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_level
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pedro/Documentos/TCC/top_level/top_level.srcs/sources_1/new/top_level.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_level
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pedro/Documentos/TCC/top_level/top_level.srcs/sources_1/new/top_level.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_level
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pedro/Documentos/TCC/top_level/top_level.srcs/sources_1/new/top_level.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_level
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pedro/Documentos/TCC/top_level/top_level.srcs/sources_1/new/top_level.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_level
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pedro/Documentos/TCC/top_level/top_level.srcs/sim_1/new/tb_top_level.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_level_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pedro/Documentos/TCC/top_level/top_level.srcs/sources_1/new/top_level.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_level
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pedro/Documentos/TCC/top_level/top_level.srcs/sim_1/new/tb_top_level.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_level_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pedro/Documentos/TCC/top_level/top_level.srcs/sources_1/new/top_level.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_level
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pedro/Documentos/TCC/top_level/top_level.srcs/sources_1/new/top_level.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_level
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pedro/Documentos/TCC/top_level/top_level.srcs/sim_1/new/tb_top_level.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_level_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pedro/Documentos/TCC/top_level/top_level.srcs/sim_1/new/tb_top_level.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_level_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pedro/Documentos/TCC/top_level/top_level.srcs/sources_1/new/top_level.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_level
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pedro/Documentos/TCC/top_level/top_level.srcs/sim_1/new/tb_top_level.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_level_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pedro/Documentos/TCC/top_level/top_level.srcs/sources_1/new/top_level.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_level
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pedro/Documentos/TCC/top_level/top_level.srcs/sim_1/new/tb_top_level.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_level_tb

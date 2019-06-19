@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Jun  3 13:32:42 2019
+# Process ID: 12235
+# Current directory: /home/pedro/Documentos/TCC/leitura_de_arquivo/leitura_de_arquivo.sim/sim_1/behav/xsim
+# Command line: wbtcv -mode batch -source /home/pedro/Documentos/TCC/leitura_de_arquivo/leitura_de_arquivo.sim/sim_1/behav/xsim/xsim.dir/in_read_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/pedro/Documentos/TCC/leitura_de_arquivo/leitura_de_arquivo.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: /home/pedro/Documentos/TCC/leitura_de_arquivo/leitura_de_arquivo.sim/sim_1/behav/xsim/webtalk.jou
+#-----------------------------------------------------------
+source /home/pedro/Documentos/TCC/leitura_de_arquivo/leitura_de_arquivo.sim/sim_1/behav/xsim/xsim.dir/in_read_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00.91 ; elapsed = 00:00:10 . Memory (MB): peak = 295.125 ; gain = 0.000 ; free physical = 218 ; free virtual = 9130
+INFO: [Common 17-206] Exiting Webtalk at Mon Jun  3 13:32:53 2019...

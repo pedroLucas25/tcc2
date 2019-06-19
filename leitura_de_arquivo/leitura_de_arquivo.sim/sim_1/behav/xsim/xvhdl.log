@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pedro/Documentos/TCC/leitura_de_arquivo/leitura_de_arquivo.srcs/sources_1/new/in_read1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity in_read1
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pedro/Documentos/TCC/leitura_de_arquivo/leitura_de_arquivo.srcs/sim_1/new/sim_read.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity in_read1_tb

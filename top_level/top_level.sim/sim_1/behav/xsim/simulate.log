@@ -1,0 +1,10 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+Warning: FIM DA LEITURA
+Time: 15 us  Iteration: 0  Process: /top_level_tb/read_sinal4_file  File: /home/pedro/Documentos/TCC/top_level/top_level.srcs/sim_1/new/tb_top_level.vhd
+Warning: FIM DA LEITURA
+Time: 15 us  Iteration: 0  Process: /top_level_tb/read_sinal3_file  File: /home/pedro/Documentos/TCC/top_level/top_level.srcs/sim_1/new/tb_top_level.vhd
+Warning: FIM DA LEITURA
+Time: 15 us  Iteration: 0  Process: /top_level_tb/read_sinal2_file  File: /home/pedro/Documentos/TCC/top_level/top_level.srcs/sim_1/new/tb_top_level.vhd
+Warning: FIM DA LEITURA
+Time: 15 us  Iteration: 0  Process: /top_level_tb/read_sinal1_file  File: /home/pedro/Documentos/TCC/top_level/top_level.srcs/sim_1/new/tb_top_level.vhd
