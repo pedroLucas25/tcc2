@@ -9,13 +9,13 @@ close all;
 
 %%%%% Variáveis utilizadas para o cálculo das senóides ecoadas %%%%%%%%%%%%
 
-Ts = 1e-6;
-Fs = 1/Ts;
-L = 1500;             
-t = (0:L-1)*Ts;
+Ts = 1e-6; % Período de amostragem
+Fs = 1/Ts; % Frequênica de amostragem
+L = 1500;  % Número de amostras           
+t = (0:L-1)*Ts; % Tempo entre as amostras
 
 dt = Ts;
-frequencia = 1e4;
+frequencia = 1e4; %Frequênica do sinal 
 c = 3e8;
 lambda = c/frequencia;
 
@@ -31,9 +31,18 @@ theta_inc = [pi/20 pi/4 11*pi/6];
 %%%% Cálculo das senóides que passaram pelo efeito de multi percurso %%%%%%
 
 antena1 = amp_mp(1)*sin(2*pi*frequencia*t) + amp_mp(2)*sin(2*pi*frequencia*(t - tau_mp(2))) + amp_mp(3)*sin(2*pi*frequencia*(t - tau_mp(3)));
-antena2 = amp_mp(1)*sin(2*pi*frequencia*(t - (d/c)*sin(theta_inc(1)))) + amp_mp(2)*sin(2*pi*frequencia*(t - tau_mp(2) - (d/c)*sin(theta_inc(2)))) + amp_mp(3)*sin(2*pi*frequencia*(t - tau_mp(3) - (1/frequencia)+(d/c)*sin(theta_inc(3))));
-antena3 = amp_mp(1)*sin(2*pi*frequencia*(t - 2*(d/c)*sin(theta_inc(1)))) + amp_mp(2)*sin(2*pi*frequencia*(t - tau_mp(2) - 2*(d/c)*sin(theta_inc(2)))) + amp_mp(3)*sin(2*pi*frequencia*(t - tau_mp(3) - (1/frequencia)+(d/c)*sin(theta_inc(3))));
-antena4 = amp_mp(1)*sin(2*pi*frequencia*t + 3*(d/c)*sin(theta_inc(1))) + amp_mp(2)*sin(2*pi*frequencia*t + tau_mp(2) + 3*(d/c)*sin(theta_inc(2))) + amp_mp(3)*sin(2*pi*frequencia*t + tau_mp(3) + (1/frequencia)+3*(d/c)*sin(theta_inc(3)));
+
+antena2 = amp_mp(1)*sin(2*pi*frequencia*(t - (d/c)*sin(theta_inc(1)))) + ...
+    amp_mp(2)*sin(2*pi*frequencia*(t - tau_mp(2) - (d/c)*sin(theta_inc(2)))) + ...
+    amp_mp(3)*sin(2*pi*frequencia*(t - tau_mp(3) - (1/frequencia)+(d/c)*sin(theta_inc(3))));
+
+antena3 = amp_mp(1)*sin(2*pi*frequencia*(t - 2*(d/c)*sin(theta_inc(1)))) + ...
+    amp_mp(2)*sin(2*pi*frequencia*(t - tau_mp(2) - 2*(d/c)*sin(theta_inc(2)))) + ...
+    amp_mp(3)*sin(2*pi*frequencia*(t - tau_mp(3) - (1/frequencia)+(d/c)*sin(theta_inc(3))));
+
+antena4 = amp_mp(1)*sin(2*pi*frequencia*t + 3*(d/c)*sin(theta_inc(1))) + ...
+    amp_mp(2)*sin(2*pi*frequencia*t + tau_mp(2) + 3*(d/c)*sin(theta_inc(2))) + ...
+    amp_mp(3)*sin(2*pi*frequencia*t + tau_mp(3) + (1/frequencia)+3*(d/c)*sin(theta_inc(3)));
 
 abs_antena1 = abs(antena1);
 abs_antena2 = abs(antena2);
